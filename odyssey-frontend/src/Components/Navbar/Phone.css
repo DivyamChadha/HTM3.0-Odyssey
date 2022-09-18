@@ -1,0 +1,30 @@
+@media screen and (max-width: 1100px) {
+    body {
+      background-color: pink;
+    }
+
+    .nav_list{
+        display: none;
+    }
+
+    /* ul li{
+      padding: 3px 20px;
+    }
+
+    ul li a{
+      font-size: 16px;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

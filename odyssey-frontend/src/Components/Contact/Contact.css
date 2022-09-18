@@ -1,0 +1,129 @@
+#contact{
+    /* background-color: blanchedalmond; */
+    height: 500px;
+    /* margin-top: 20px; */
+    padding-top: 80px;
+}
+
+.contact_container{
+    width: 50%;
+    /* height: 400px; */
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: auto;
+    height: 450px;
+    /* background-color: orange; */
+
+}
+
+.contact_container h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.contact_form_container{
+    border:2px solid black;
+    border-radius: 25px;
+    height: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.contact_logo_container{
+    /* border: 5px solid green; */
+    background-color: rgb(6, 6, 62);
+    border: 2px solid rgb(6, 6, 62);
+    height: 350px;
+    width: 37%;
+    border-radius: 25px 15px 15px 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+
+}
+
+.contact_form_container{
+    /* border:5px solid black; */
+    background-color: rgb(193, 187, 187);
+    border: 2px solid rgb(193, 187, 187);
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_logo{
+    width: 80px;
+    height: 100px;
+    padding-right: 20px;
+}
+
+.contact_logo img{
+    width: 120px;
+    height: 100px;
+}
+
+.contact_form{
+    justify-self: flex-start;
+    /* border: 2px solid red; */
+    width: 60%;
+}
+
+.form_1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    /* background-color: red; */
+    background-color:  rgb(193, 187, 187);
+    outline: 0;
+    padding: 10px;
+    margin: 10px;
+    border-width: 0 0 2px;
+    border-color: rgb(193, 187, 187);
+    border-bottom-color: rgb(6, 6, 62) ;
+}
+input:focus{
+    border-color: rgb(6, 6, 62);
+}
+
+.form_1 button{
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(6, 6, 62);
+    color: white;
+}
+
+.form_1 button:hover{
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+    color: rgb(6, 6, 62);
+    border-color: white;
+}
+.form_header{
+    padding-left: 30px;
+}
+
+.form_2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_2 input{
+    width: 80%;
+}

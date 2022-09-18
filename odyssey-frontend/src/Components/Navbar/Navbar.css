@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.nav_container{
+    /* background-color: rgb(119, 116, 116); */
+    /* background-color: red; */
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky; */
+    top: 0;
+    
+}
+.nav_div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* border: 3px solid white; */
+    border-radius: 15px;
+    height: 80%;
+    width: 100%;
+    margin: auto 25px auto 25px;
+}
+.nav_logo{
+    position: absolute;
+    left: 150px;
+    width: 100px;
+    height: 75px;
+    /* border: 3px solid white; */
+    z-index: 5;
+    margin-top: 10px;
+}
+.nav_logo img{
+    width: 100px;
+    height: 75px;
+}
+.nav_list{
+    position: absolute;
+    right: 40px;
+}
+.nav_list ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.nav_list ul li{
+    /* background-color: white; */
+    display: flex;
+    list-style: none;
+    
+    margin: 0 10px 0 10px;
+    /* border: 4px solid white; */
+    border-radius: 25px;
+}
+.nav_list ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 25px;
+    border-radius: 25px;
+}
+
+.nav_list ul li button{
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.nav_list ul li button:hover{
+    color: white;
+}
+
+.nav_list ul li :hover{
+    background-color: black;
+
+}
+.nav_list ul li a:hover{
+    color: white;
+}
+
+.nav_disable{
+    pointer-events: none;
+}

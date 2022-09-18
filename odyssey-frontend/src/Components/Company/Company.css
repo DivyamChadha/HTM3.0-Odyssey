@@ -1,0 +1,30 @@
+.company_container{
+    box-sizing: border-box;
+    width: 95%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.company_header{
+    /* border: 2px solid red; */
+    width: 90%;
+    padding-left: 25px;
+    margin: auto;
+}
+.company_header h3{
+    margin: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+.company_desc{
+    /* border: 2px solid red; */
+    width: 90%;
+    padding-left: 25px;
+    margin: auto;
+}
+.company_desc p{
+    width: 100%;
+    text-align: justify;
+}
+
